@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Swagger integration with Rails application using rswag gem
 
-Things you may want to cover:
+Setup:
 
-* Ruby version
+bundle install
 
-* System dependencies
+rake db:migrate
 
-* Configuration
+rake rswag:specs:swaggerize
 
-* Database creation
+Start Rails server:
 
-* Database initialization
+rails s
+Go to http://localhost:3000/api-docs to view swagger-ui
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
